@@ -1,5 +1,5 @@
 {
-  "name": "webpack-starter-kit",
+  "name": "goit-js-hw-10-food-service",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Marishka95s/webpack-starter-kit.git"
+    "url": "git+https://github.com/Marishka95s/goit-js-hw-10-food-service.git"
   },
   "keywords": [],
   "author": "Mariia Kontseva <Marishka95@ukr.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Marishka95s/webpack-starter-kit/issues"
+    "url": "https://github.com/Marishka95s/goit-js-hw-10-food-service/issues"
   },
-  "homepage": "https://github.com/Marishka95s/webpack-starter-kit#readme",
+  "homepage": "https://github.com/Marishka95s/goit-js-hw-10-food-service#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
