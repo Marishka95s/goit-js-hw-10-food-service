@@ -59,6 +59,8 @@ npm run build
 
 ### Deploying/Publishing
 
+Перед тем как деплоить не забыть удалить <link rel="stylesheet" href="styles.css" /> с index.html, ведь именно он дает ошыбку.
+
 Сборка может автоматически деплоить билд на GitHub Pages удаленного (remote)
 репозитория. Для этого необходимо в файле `package.json` отредактировать поле
 `homepage`, заменив имя пользователя и репозитория на свои.
