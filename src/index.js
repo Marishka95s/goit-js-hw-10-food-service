@@ -21,8 +21,9 @@ const themeCheckbox = document.querySelector('#theme-switch-toggle');
 themeCheckbox.addEventListener('change', onCheckboxStatusChange);
 const body = document.querySelector('body');
 
+if (localStorage.getItem('theme') === null) {localStorage.setItem('theme', Theme.LIGHT);}
 body.classList = localStorage.getItem('theme');
-if (localStorage.getItem('theme') === 'dark-theme'){ 
+if (localStorage.getItem('theme') === Theme.DARK){ 
     themeCheckbox.checked = true; 
 }
 
